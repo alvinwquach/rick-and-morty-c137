@@ -1,6 +1,7 @@
 import type { NextPage } from "next";
 import Head from "next/head";
 import Image from "next/image";
+import Footer from "../components/common/Footer";
 import Navbar from "../components/common/Navbar";
 
 const Home: NextPage = () => {
@@ -74,8 +75,8 @@ const Home: NextPage = () => {
             </a>
           </div>
         </main>
-
-        <footer className="flex h-24 w-full items-center justify-center border-t">
+        <Footer />
+        {/* <footer className="flex h-24 w-full items-center justify-center border-t">
           <a
             className="flex items-center justify-center gap-2"
             href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
@@ -90,7 +91,7 @@ const Home: NextPage = () => {
               height={16}
             />
           </a>
-        </footer>
+        </footer> */}
       </div>
     </>
   );
