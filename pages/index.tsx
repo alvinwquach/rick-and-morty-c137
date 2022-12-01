@@ -22,7 +22,7 @@ const Home: NextPage = () => {
           </h1>
 
           <p className="mt-3 text-2xl">
-            Get started by editing{" "}
+            Get started by editing sS{" "}
             <code className="rounded-md bg-gray-100 p-3 font-mono text-lg">
               pages/index.tsx
             </code>
