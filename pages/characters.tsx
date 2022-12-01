@@ -34,7 +34,7 @@ function Characters({ data }: { data: any }) {
         height="100"
         priority
       />
-      <div className="grid grid-cols-2 justify-between">
+      <div className="grid grid-cols-1 md:grid-cols-2 justify-between">
         {results.map(
           (result: {
             id: string;
