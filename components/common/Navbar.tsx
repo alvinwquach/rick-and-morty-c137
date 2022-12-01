@@ -38,7 +38,7 @@ const Navbar = () => {
               </div>
               <div className="flex-1 flex items-center justify-center sm:items-stretch sm:justify-start">
                 <Link href="/">
-                  <div className="flex-shrink-0 flex items-center cursor-pointer">
+                  <div className="flex-shrink-0 flex items-center cursor-pointer h-auto w-auto overflow-hidden">
                     <Image
                       src="/logo/RickAndMorty.jpeg"
                       alt="image of Rick and Morty"

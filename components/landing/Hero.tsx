@@ -4,13 +4,14 @@ import Image from "next/image";
 function Hero() {
   return (
     <div className="grid w-full place-items-center bg-cover bg-center min-h-screen bg-base-200">
-      <div className="z-0 flex items-center justify-center max-w-7xl flex-col lg:flex-row gap-4 p-4">
+      <div className="z-0 flex items-center justify-center max-w-7xl flex-col lg:flex-row gap-4 p-4 h-auto w-auto overflow-hidden">
         <Image
           src="/landing/RickAndMortyHero.jpeg"
           alt="Rick and Morty entering through a portal"
           className="max-w-sm rounded-lg shadow-2xl object-contain"
           width="260"
           height="400"
+          priority
         />
         <div>
           <h1 className="text-5xl font-bold">
