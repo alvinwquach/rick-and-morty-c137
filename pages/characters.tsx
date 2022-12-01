@@ -54,7 +54,7 @@ function Characters({ data }: { data: any }) {
                     <Image
                       className="object-cover w-full rounded-t-lg md:rounded-none md:rounded-l-lg"
                       src={image ?? "image"}
-                      alt={`Image of ${image}`}
+                      alt={`Image of ${name}`}
                       width={100}
                       height={100}
                       sizes="(max-width: 768px) 100vw,
