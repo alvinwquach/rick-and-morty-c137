@@ -19,7 +19,7 @@ const Navbar = () => {
   return (
     <Disclosure
       as="nav"
-      className="bg-black border-b border-zinc-500 sticky top-0 w-full backdrop-blur-3xl backdrop-brightness-50 z-10"
+      className="bg-white border-b border-zinc-500 sticky top-0 w-full backdrop-blur-3xl backdrop-brightness-50 z-10"
     >
       {({ open }) => (
         <>
@@ -60,7 +60,7 @@ const Navbar = () => {
                           className={cn(
                             item.current
                               ? " text-white"
-                              : "text-gray-400  hover:text-white transition ease-in-out",
+                              : "text-gray-400  hover:text-purple-700 transition ease-in-out",
                             "px-3 py-2 rounded-md text-sm cursor-pointer",
                             { underline: router.pathname === item.href }
                           )}
@@ -85,7 +85,7 @@ const Navbar = () => {
                   className={cn(
                     item.current
                       ? "bg-gray-900 text-white"
-                      : "text-gray-300 hover:bg-gray-700 hover:text-white",
+                      : "text-gray-400 hover:bg-slate-700 hover:text-purple-700",
                     "block px-3 py-2 rounded-md text-base font-medium"
                   )}
                   aria-current={item.current ? "page" : undefined}
